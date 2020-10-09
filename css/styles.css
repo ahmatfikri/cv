@@ -1,0 +1,97 @@
+body {
+    margin: 0px;
+    background-color: #0f4c75;
+    color: #eeeeee;
+    text-align: center;
+    font-family: 'Fira Sans', sans-serif;
+}
+h1{
+    margin-bottom: 45px;
+}
+h2 {
+    color: #00ad85;
+    
+}
+p {
+    line-height: 1,5;
+}
+a {
+    text-decoration: none;
+    color: aqua;
+}
+a:hover {
+    color: #eeeeee;
+}
+.wrapper {
+    width: 720px;
+    padding-top: 225px;
+    margin: 0 auto;
+}
+.section {
+    margin-bottom: 200px;
+}
+/*Section Pertama */
+.intro {
+    text-align: left;
+
+}
+.btn {
+    background-color: #00ad85;
+    color: #eeeeee;
+    padding: 12px 30px;
+    border-radius: 5px;
+    display: inline-block;
+}
+.foto-profil {
+    float: right;
+    border-radius: 100%;
+    margin-left: 30px;
+    height: 250px;
+}
+/* 1 em = 16px,100% */
+.title {
+    font-size: 4.5rem;
+    font-family: "Caveat",cursive;
+    font-weight: bold;
+    display: block;
+}
+#attribute {
+    position: absolute;
+    left: 220px;
+    top: 150px;   
+}
+/* Section Dua */
+.skill-row {
+    text-align: left;
+    margin-bottom: 150px;
+}
+
+.ux {
+    float: left;
+    margin-right: 30px;
+    height: 350px;
+}
+.web{
+    float: right;
+    margin-left: 30px;
+    height: 350px;
+}
+/*Section Tiga*/
+.cta-text {
+    width: 66%;
+    margin: 0 auto 12px auto;
+
+}
+/*Footer*/
+.footer {
+    background-color: #065446;
+    padding: 30px 0 30px;
+}
+.footer-text {
+    font-size: 15px;
+    margin-top: 20px;
+}
+.social-links {
+    margin: 0 12px 20px;
+   
+}
